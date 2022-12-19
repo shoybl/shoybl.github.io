@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Pacifico&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chango&family=Pacifico&family=Silkscreen&display=swap');
+@font-face {
+    font-family: "maiami";
+    src: url("./PoiretOne-Regular.ttf");
+}
+*{
+    list-style: none;
+    /* margin: 0; padding: 0; */
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "maiami";
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+}
+
+p{
+    font-family: "maiami";
+    font-size: 15px;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+span{
+    padding-left: 10px;
+}
+.menu{
+    z-index: 1;
+    position: fixed;
+    padding: 30vh 50px ;
+    min-height: 1000px;
+    left: 0;
+    background-color: #fff;
+    
+}
+
+.wrap-content{
+    position: relative;
+    left: 0;
+}
+
+.content{
+    padding-top: 15vh;
+    padding-left: 500px;
+    padding-right: 150px;
+    position: absolute;
+    justify-content: space-between;
+    opacity: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -40px -60px 0 0;
+    background: #fff;
+}
+
+.title h1{
+    font-family: "maiami";
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: black;
+}
+
+.list_menu li{
+    margin: 20px 0;
+}
+
+.list_menu a{
+    font-size: 5px;
+    font-family: "maiami";
+    color: black;
+    font-size: 25px;
+    transition: all 0.2s ease;
+}
+
+.list_menu a:hover{
+    border-left: 2px solid #F3C;
+    padding-left: 10px;
+    transition: all 0.5s ease;
+}
+
+.book
+{
+    display: flex;
+    border-radius: 10px;
+    margin: 10px; 
+    position: relative; 
+    width: 600px; 
+    height: 700px; 
+    background: #000000; 
+    
+    bottom: 50px;
+    margin-bottom: 20px;
+}
+.book .image
+{
+    position: absolute; 
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.book .image img
+{ 
+    border-radius: 10px;
+    position: absolute; 
+    top: 0;
+    left:0;
+    width:100%; 
+    height: 100%; 
+    object-fit: cover; 
+    transition: 0.5s;
+}
+
+/* .book:hover .image img
+{ 
+    opacity: 0;
+} */
+
+.book .text
+{
+    border-radius: 10px;
+    position: absolute;
+    padding: 15px;
+    bottom: 10px;
+    left: 10%;
+    width: 80%;
+    height: 73px;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* background: rgba(214,214,203,0.3); */
+    background: rgba(255, 255, 255, 0.7);;
+    transition: 0.5s;
+}
+
+/* .book:hover .text
+{ 
+    width: 100%;
+    height: 100%; 
+    bottom:0;
+    left:0;
+    background: #fff;
+    box-shadow: 0 20px 50px rgba(255,255,255,0.5)
+    
+} */
+
+.book .text h3
+{
+    margin:0 5px 10px 17px; 
+    padding:0; 
+    font-size:25px;
+}
+
+/* .book:hover .text h3
+{
+    display: flex;
+} */
+
+.book .text p
+{
+    margin:0; 
+    padding: 0; 
+    opacity:0; 
+    line-height: 1.2em; 
+    transition:0.7s;
+}
+
+/* .book:hover .text p
+{
+    opacity: 1;
+    transition-delay: 0.3s;
+} */
+
+
